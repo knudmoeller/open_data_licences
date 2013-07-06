@@ -12,3 +12,5 @@ Only those catalogs that belong to the `ckan` group are extracted. For each cata
 datacatalogs.org contains a number of meta catalogs, which harvest other catalogs (e.g., http://publicdata.eu/). This means that many datasets will appear several times. To get around this, the code makes the assumption that datasets with the same `name` attribute are identical. This is only an approximation, because there might well be several different datasets called `expenses`. If there is a better way to determine dataset identity, please let me know.
 
 Similary, licences with the same `license_id` attribute are considered identical. The code also tries to extract a human-readable lincence name by querying for `licence`. However, this field is not always present.
+
+All code is spaghetti Ruby.
