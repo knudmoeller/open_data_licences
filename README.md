@@ -3,7 +3,7 @@ CKAN Open Data Licences
 
 2013, Knud Möller
 
-Creates RDF data from http://datacatalogs.org
+Creates DCAT RDF data about Open Data licences from http://datacatalogs.org
 
 This is a little project to research **which Open Data licences are being used across the world, and where**. The source data for finding out comes from http://datacatalogs.org (a meta catalog of open data catalogs or data portal), which is queried through its API endpoint at http://datacatalogs.org/api, using the CKAN Search API (http://docs.ckan.org/en/ckan-1.8/api-v2.html#search-api).
 
