@@ -1,22 +1,4 @@
 
-results/all_datasets.json
+results/
 
 .DS_Store
-
-results/catalog_successes.numbers
-
-results/licence_counts_by_catalog.csv
-
-results/licence_counts_by_catalog.numbers
-
-results/shared_datasets.csv
-
-results/shared_datasets.reduced.csv
-
-all_datasets.nt
-
-results/licence_counts.csv
-
-all_datasets.nt
-
-all_datasets.nt
