@@ -1,0 +1,14 @@
+
+results/all_datasets.json
+
+.DS_Store
+
+results/catalog_successes.numbers
+
+results/licence_counts_by_catalog.csv
+
+results/licence_counts_by_catalog.numbers
+
+results/shared_datasets.csv
+
+results/shared_datasets.reduced.csv
