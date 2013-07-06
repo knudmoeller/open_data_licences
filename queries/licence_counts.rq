@@ -2,10 +2,10 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX dctypes: <http://purl.org/dc/dcmitype/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?short_id (COUNT(?dataset) AS ?ds_count) ?label
+SELECT ?short_id (COUNT(?dataset) AS ?ds_count) ?label ?licence
 WHERE {
   SERVICE <http://dydra.com/knudmoeller/open-datasets/sparql> {
-    SELECT ?dataset ?short_id ?label
+    SELECT ?dataset ?licence ?short_id ?label
     WHERE {
       ?dataset dc:license ?licence .
       ?licence dc:identifier ?id .

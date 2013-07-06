@@ -4,10 +4,10 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 
 
-SELECT ?catalog_name (COUNT(?dataset) AS ?ds_count) ?short_id ?label
+SELECT ?catalog_name (COUNT(?dataset) AS ?ds_count) ?short_id ?label ?licence
 WHERE {
   SERVICE <http://dydra.com/knudmoeller/open-datasets/sparql> {
-    SELECT ?dataset ?short_id ?label ?catalog_name
+    SELECT ?dataset ?short_id ?label ?catalog_name ?licence
     WHERE {
       ?catalog dcat:dataset ?dataset ;
         dc:title ?catalog_name .
