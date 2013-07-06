@@ -1,0 +1,19 @@
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?short_id ?label ?licence
+WHERE {
+  SERVICE <http://dydra.com/knudmoeller/open-datasets/sparql> {
+    SELECT DISTINCT ?short_id ?label ?licence
+    WHERE {
+      ?licence a dctypes:LicenseDocument ;
+        dc:identifier ?identifier .
+      OPTIONAL {
+        ?licence rdfs:label ?label .
+      }
+      BIND (SUBSTR(?identifier, 1, 15) as ?short_id)
+    }
+  }
+}
+ORDER BY ?identifier

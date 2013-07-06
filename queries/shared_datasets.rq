@@ -1,0 +1,16 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+
+
+SELECT ?catalog1 ?catalog2
+WHERE {
+  SERVICE <http://dydra.com/knudmoeller/open-datasets/sparql> {
+    SELECT DISTINCT ?catalog1 ?catalog2
+    WHERE {
+      ?catalog1 dcat:dataset ?dataset .
+      ?catalog2 dcat:dataset ?dataset .
+      FILTER (?catalog1 != ?catalog2)
+    }
+  }
+}
+ORDER BY ?catalog1
+

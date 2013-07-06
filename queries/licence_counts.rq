@@ -1,0 +1,21 @@
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?short_id (COUNT(?dataset) AS ?ds_count) ?label
+WHERE {
+  SERVICE <http://dydra.com/knudmoeller/open-datasets/sparql> {
+    SELECT ?dataset ?short_id ?label
+    WHERE {
+      ?dataset dc:license ?licence .
+      ?licence dc:identifier ?id .
+      OPTIONAL {
+        ?licence rdfs:label ?label .
+      }
+      BIND (SUBSTR(?id, 1, 15) as ?short_id)
+    }
+  }
+}
+GROUP BY ?licence ?short_id ?label
+HAVING (COUNT(?dataset) > 2)
+ORDER BY DESC(?ds_count)

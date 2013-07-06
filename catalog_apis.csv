@@ -1,0 +1,60 @@
+ID,URL,Can Connect?,Alternative CKAN API,
+open-data-thailand,http://catalog.opendata.in.th,not successful: no API endpoint found,,“Hello World” - not an active site
+amsterdam_open_data,http://www.amsterdamopendata.nl/home,not successful: no API endpoint found,cannot find,
+data-catalogue-linz-austria,http://data.linz.gv.at,not successful: no API endpoint found,cannot find,
+data-norge-no,http://data.norge.no,not successful: no API endpoint found,cannot find,
+data_gc_ca,http://www.data.gc.ca,not successful: no API endpoint found,cannot find,
+datagov-ru,http://datagov.ru,not successful: no API endpoint found,cannot find,
+denver,http://data.denvergov.org,not successful: no API endpoint found,cannot find,
+eu-open-data,http://open-data.europa.eu,not successful: no API endpoint found,cannot find,seems to have SPARQL endpoint though!
+graz,http://data.graz.gv.at,not successful: no API endpoint found,cannot find,
+hamburg,http://daten.hamburg.de,not successful: no API endpoint found,cannot find,
+helsinki_finland,http://www.hri.fi,not successful: no API endpoint found,cannot find,
+rotterdam,http://www.rotterdamopendata.nl,not successful: no API endpoint found,cannot find,
+data_gov_uk,http://data.gov.uk/data,not successful: no API endpoint found,http://data.gov.uk/api,
+the-data-hub,http://thedatahub.org,not successful: no API endpoint found,http://datahub.io/api/,"redirect, had to guess"
+datospublicos-org,http://datospublicos.org,not successful: no API endpoint found,http://datospublicos.org/api/,old “package” URI pattern
+healthdata-gov,http://www.healthdata.gov,not successful: no API endpoint found,http://hub.healthdata.gov/api,
+datakilder-no,http://datakilder.no,not successful: no API endpoint found,http://no.ckan.net/api/,redirect
+data-catalogue-austrian-government,http://data.gv.at,not successful: no API endpoint found,http://www.data.gv.at/katalog/api,link leicht auf Landing Page zu finden
+dados-gov-novo-hamburgo-brasil,http://dados.novohamburgo.rs.gov.br,not successful: no API endpoint found,https://dados.novohamburgo.rs.gov.br/api,had to guess
+data_qld_gov_au,http://data.qld.gov.au,not successful: no API endpoint found,https://data.qld.gov.au/api,had to guess
+offenedaten,http://offenedaten.de,not successful: no API endpoint found,https://offenedaten.de/api/,had to guess
+datagm,http://www.datagm.org.uk,not successful: no API endpoint found,no search API,old “package” URI pattern
+opengov_es,http://opengov.es,not successful: no API endpoint found,no search API,old “package” URI pattern
+berlin-open-data,http://daten.berlin.de,not successful: no API endpoint found,private API,
+open_data_hub_italia,http://www.opendatahub.it,not successful: no API endpoint found,private API,
+overheid_nl,http://data.overheid.nl,not successful: no API endpoint found,private API,
+data-hub-suomi,http://fi.thedatahub.org,not successful: connection refused,,
+emap-fundacao-getulio-vargas,http://ckan.emap.fgv.br,not successful: connection refused,,
+africa_open_data,http://africaopendata.org,success,,
+aragon-open-data,http://opendata.aragon.es,success,,
+bari_open_data,http://opendata.comune.bari.it,success,,
+buenos-aires,http://data.buenosaires.gob.ar,success,,
+ckan-brazil,http://br.ckan.net,success,,
+ckan-italia,http://it.ckan.net,success,,
+ckan-serbia,http://rs.ckan.net,success,,
+ckan_ireland,http://ie.ckan.net,success,,
+codeando_mexico,http://datos.codeandomexico.org,success,,
+cz-ckan-net,http://cz.ckan.net,success,,
+dados-gov-br,http://dados.gov.br,success,,
+dadosabertos-senado-gov-br,http://dadosabertos.senado.gov.br,success,,
+data-sa-gov-au,http://data.sa.gov.au,success,,
+data_gov_sk,http://data.gov.sk,success,,
+data_openpolice_ru,http://data.openpolice.ru,success,,
+datacatalogs-org,http://datacatalogs.org,success,,
+houston_data_portal,http://data.codeforhouston.com,success,,
+iati-registry,http://iatiregistry.org,success,,
+karnataka_learning_partnership,http://data.klp.org.in,success,,
+korea-datahub,http://thedatahub.kr,success,,
+nosdonnees_fr,http://www.nosdonnees.fr,success,,
+open-colorado,http://data.opencolorado.org,success,,
+open_data_trentino,http://dati.trentino.it,success,,
+open_virginia,http://data.openva.com,success,,
+opendata_hro,http://www.opendata-hro.de,success,,
+ottawa_ca,http://data.ottawa.ca,success,,
+provincia-roma,http://www.opendata.provincia.roma.it,success,,
+publicdata-eu,http://publicdata.eu,success,,
+rheinland-pfalz,http://www.daten.rlp.de,success,,
+santa-cruz,http://data.cityofsantacruz.com,success,,
+toscana,http://dati.toscana.it,success,,
