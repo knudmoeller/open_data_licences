@@ -132,7 +132,7 @@ generator_opts = {
   :space_before => " ",
 }
 
-json_out = File.open("all_datasets.json", "w")
+json_out = File.open("results/all_datasets.json", "w")
 json_out.puts JSON.generate(all_datasets, generator_opts)
 json_out.close
 
