@@ -1,5 +1,5 @@
-ID,URL,Can Connect?,Alternative CKAN API,
-open-data-thailand,http://catalog.opendata.in.th,not successful: no API endpoint found,,“Hello World” - not an active site
+ID,URL,Can Connect?,Alternative CKAN API,comment
+open-data-thailand,http://catalog.opendata.in.th,not successful: no API endpoint found,,Hello World - not an active site
 amsterdam_open_data,http://www.amsterdamopendata.nl/home,not successful: no API endpoint found,cannot find,
 data-catalogue-linz-austria,http://data.linz.gv.at,not successful: no API endpoint found,cannot find,
 data-norge-no,http://data.norge.no,not successful: no API endpoint found,cannot find,
